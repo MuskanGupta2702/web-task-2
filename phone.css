@@ -1,0 +1,146 @@
+
+.container{
+    width: 100vw;
+    border-color:blue;
+    position:static;
+}
+#ham{
+    display: block;
+    align-self: flex-start;
+    position: fixed;
+    margin: 20px;
+    font-size: 30px;
+}
+/* .fa-bars{
+    padding: 13px;
+    background-color: transparent; */
+
+.navbar{
+    /* display: none; */
+    width: 0%;
+    z-index: 1;
+    transition: 0.5s;
+}
+.closebtn{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    flex-direction: column;
+    align-self: flex-end;
+}
+#btn{
+    font-size: 35px;
+}
+.profile{
+    margin: 0px;
+    width:200px;
+    height:200px;
+}
+#profile{
+    display: none;
+}
+.navName{
+    font-size: 35px;
+    margin: 15px;
+    padding: 15px;
+}
+.icon{
+}
+.upIcon{
+    font-size: 40px;
+    padding: 20px;
+    margin: 5px;
+
+}
+.navList{
+width: 80%;
+}
+.item{
+    transition: 0.3s;
+    font-size: 35px;
+    justify-content: flex-start;
+    margin: 10px;
+    transition: 0.3s;
+}
+li i{
+margin: 10px 25px;
+}
+.item a{
+    font-size: 35px;
+}
+
+#home,#aboutPage,#projectPage,#contactPage{
+    width: 100vw;
+    min-height: 100vh;
+    position: static;
+}
+#home{
+    /* background-color: aqua; */
+}
+.homebox{
+margin: 50px auto;
+}
+#homeProfile{
+    display: block;
+}
+.homeName{
+font-size: 40px;
+font-weight: 400;
+}
+#homeName{
+    font-size: 40px;
+    font-weight:bolder;
+}
+#profession{
+font-size: 25px;
+}
+#about{
+
+}
+.aboutItem{
+    width: 80%;
+    font-size: 25px;
+    margin: 20px;
+}
+#projectPage{
+    padding-top: 30px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    justify-content: center;
+}
+#cardContainer{
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    margin: 20px;
+}
+.card{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #cecccc;
+}
+.p1,.p2{
+    width: 75%;
+    height: auto;
+}
+.content{
+    padding: 16px;
+}
+.card h2{
+    padding: 5px;
+    font-size: 23px;
+}
+.content p{
+    font-size: 18px;
+}
+#formitem{
+    width: 80%;
+    padding: 15px;
+}
+
+
+
+
