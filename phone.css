@@ -11,12 +11,8 @@
     margin: 20px;
     font-size: 30px;
 }
-/* .fa-bars{
-    padding: 13px;
-    background-color: transparent; */
 
 .navbar{
-    /* display: none; */
     width: 0%;
     z-index: 1;
     transition: 0.5s;
@@ -29,7 +25,7 @@
     align-self: flex-end;
 }
 #btn{
-    font-size: 35px;
+    font-size: 30px;
 }
 .profile{
     margin: 0px;
@@ -40,16 +36,14 @@
     display: none;
 }
 .navName{
-    font-size: 35px;
-    margin: 15px;
-    padding: 15px;
-}
-.icon{
+    font-size: 33px;
+    margin: 11px;
+    padding: 11px;
 }
 .upIcon{
-    font-size: 40px;
+    font-size: 32px;
     padding: 20px;
-    margin: 5px;
+    margin: 2px;
 
 }
 .navList{
@@ -59,14 +53,14 @@ width: 80%;
     transition: 0.3s;
     font-size: 35px;
     justify-content: flex-start;
-    margin: 10px;
+    margin: 5px;
     transition: 0.3s;
 }
 li i{
-margin: 10px 25px;
+margin: 10px 15px;
 }
 .item a{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 #home,#aboutPage,#projectPage,#contactPage{
@@ -74,9 +68,7 @@ margin: 10px 25px;
     min-height: 100vh;
     position: static;
 }
-#home{
-    /* background-color: aqua; */
-}
+
 .homebox{
 margin: 50px auto;
 }
@@ -92,10 +84,7 @@ font-weight: 400;
     font-weight:bolder;
 }
 #profession{
-font-size: 25px;
-}
-#about{
-
+font-size: 28px;
 }
 .aboutItem{
     width: 80%;
@@ -103,14 +92,13 @@ font-size: 25px;
     margin: 20px;
 }
 #projectPage{
-    padding-top: 30px;
+    padding-top: 50px;
     flex-direction: column;
-    /* border: 2px solid red; */
+
     justify-content: center;
 }
 #cardContainer{
     flex-direction: column;
-    /* border: 2px solid blue; */
     margin: 20px;
 }
 .card{
